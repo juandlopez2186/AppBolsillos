@@ -1,8 +1,8 @@
 package com.juadlopez2186.appbolsillos
 
 
-class nequi(private val cel: String, private val cont: String) {
-    private var saldoDisponible = 4500.0
+class Nequi(private val cel: String, private val cont: String) {
+    private var saldoDisponible = 500000.0
     private var intentos = 3
 
     fun iniciarSesion(): Boolean {
